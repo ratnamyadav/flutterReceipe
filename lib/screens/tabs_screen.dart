@@ -34,9 +34,7 @@ class _TabsScreenState extends State<TabsScreen> {
             ],
           ),
         ),
-        drawer: Drawer(
-          child: MainDrawer(),
-        ),
+        drawer: MainDrawer(),
         body: TabBarView(
           children: <Widget>[
             CategoriesScreen(),

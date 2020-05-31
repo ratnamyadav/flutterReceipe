@@ -39,7 +39,9 @@ class MealItem extends StatelessWidget {
       arguments: {
         'meal': meal
       }
-    );
+    ).then((result) {
+      print(result);
+    });
   }
 
   @override
